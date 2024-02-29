@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 20vw;
+    margin-left: 20%; 
+    margin-top: 20px;
+    display: block;
+    overflow: hidden;
+
+}
+header h1 {
+    font-size: 1.2rem;
+    color: #313131;
+    border: solid #313131 1px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 20px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+#branding {
+    background-color: #131313;
+    margin: 20px 20%;
+    height: 100px;
+    position: relative;
+}
+
+#branding p {
+    color: #fff;
+    letter-spacing: 10px;
+    padding-left: 3%;
+    font-size: 1.2rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav {
+    width: 100vw;
+    border-top: solid #131313 1px;
+    border-bottom: solid #131313 1px;
+
+}
+nav ul {
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+}
+
+nav ul li {
+    margin: 10px 20px;
+    text-align: center;
+    width: calc(25% - 2px); 
+    border-left: solid #131313 1px;
+    list-style: none;
+}
+
+nav li:last-child {
+    border-right: solid #131313 1px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #131313;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+nav a:hover {
+    color: #aaaaaa;
+    transition: 0.3s;
+}
+
+section{
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    overflow: hidden;
+}
+
+article{
+    width: calc(50% - 15px);    /*横幅の指定*/
+    padding: 2.5%;  /*余白の指定*/
+    margin-bottom: 30px;
+    background-color: #f9f9f9;  /*背景色の指定*/
+    overflow: hidden;   /*おまじない*/
+    float: left;    /*フロートする*/
+}
+
+article:nth-child(2n) {
+    margin-left: 30px;
+}
+
+article .date {
+    color: #131313;
+    border: solid #131313 1px;
+    padding: 5px;
+    margin-bottom: 10px;
+    letter-spacing: 3px;
+    font-size: 0.6rem;
+    font-weight: 400;
+    float: left;
+}
+
+article h1 {
+    width: 100%;
+    font-size: 1.5rem;
+    color: #131313;
+    letter-spacing: 3px;
+    border-bottom: solid #131313 1px;
+    float: left;
+    margin-bottom: 15px;
+    padding: 3px 6px;
+}
+
+article p {
+    font-size: 1.0rem;
+    color: #131313;
+    letter-spacing: 3px;
+    line-height: 2.0rem;
+    float: left;
+    margin-bottom: 10px;
+}
+
+article .btn {
+    float: right;
+    letter-spacing: 3px;
+    text-decoration: none;
+    color: #131313;
+    padding: 3px;
+    overflow: hidden;
+}
+
+article .btn:hover {
+    color: #aaaaaa;
+    transition: 0.3s;
+}
+
+footer {
+    background-color: #131313;
+    font-size: 0.8rem;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer address{
+    color: #fff;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+footer address a {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer address a:hover {
+    color: rgb(101, 101, 194);
+}
